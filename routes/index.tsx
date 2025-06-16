@@ -4,6 +4,7 @@ export default function Home() {
     <div>
       Este es mi programa principal
       Una prueba
+      de otra prueba
     </div>
   );
 }
