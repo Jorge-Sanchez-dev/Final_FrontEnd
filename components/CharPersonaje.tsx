@@ -8,6 +8,7 @@ type CharacterType = {
     image: string;
     actor: string;
     house: string;
+    alive: string;
 }
 
 type Props = {

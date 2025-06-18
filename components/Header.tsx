@@ -9,3 +9,5 @@ const Header: FunctionComponent = () => {
     </div>
   );
 };
+
+export default Header;

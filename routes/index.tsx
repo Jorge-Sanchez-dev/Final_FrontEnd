@@ -7,6 +7,7 @@ type Character = {
   name: string;
   image: string;
   house: string;
+  alive: string;
 }
 
 export default async function Listpersonajes() {
@@ -28,6 +29,11 @@ export default async function Listpersonajes() {
       </div>
     )
   } catch (error) {
-    
+    console.error("Error al cargar los personajes", error);
+    return (
+      <div>
+        <h1>Ha habido un error al capturar los personajes</h1>
+      </div>
+    )
   }
 }
