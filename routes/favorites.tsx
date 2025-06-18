@@ -1,6 +1,5 @@
 import axios from "npm:axios"
 import CharPersonaje from "../components/CharPersonaje.tsx"
-import { PageProps } from "$fresh/server.ts"
 
 type Character = {
   id: string;
@@ -37,3 +36,5 @@ export default async function Listpersonajes() {
     )
   }
 }
+  
+

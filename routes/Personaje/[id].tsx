@@ -37,18 +37,20 @@ export default function PersonajePage({ data }: PageProps<Data>) {
   if (!character) return <h1>personaje no encontrado</h1>;
 
   return (
-    <div>
+    <div class = "centrar">
       <img src={character.image} alt={character.name} />
       <h1>{character.name}</h1>
       <button name="favorito" type="button">
+        <svg aria-hidden="true" viewBox="0 0 10 10">
+          <path d="m7.4 8.8-2.4-1.3-2.4 1.3.46-2.7-2-1.9 2.7-.39 1.2-2.5 1.2 2.5 2.7.39-1.9 1.9z" />
+        </svg>
         Agregar a favoritos
       </button>
       <p>
         <strong>Casa:</strong> {character.house}
       </p>
       <p>
-        <strong>Si esta vivo:</strong>
-        {character.alive}
+        <strong>VIVO</strong>
       </p>
 
       <a href="/">Volver</a>
