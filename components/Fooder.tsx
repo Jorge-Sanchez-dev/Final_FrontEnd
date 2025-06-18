@@ -1,8 +1,10 @@
-import { FunctionComponent } from "preact/src/index.d.ts";
+import { FunctionComponent } from "preact";
 
 
 const Footer: FunctionComponent = () => {
   return (
-    
+    <div class="Fooder" >
+      Jorge Sánchez López
+    </div>
   );
 };
